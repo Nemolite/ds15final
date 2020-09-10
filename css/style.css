@@ -368,7 +368,6 @@ body {
 	width: 100%;
 	height: 500px;
 	min-height: 500px;
-	border:1px solid red;
 	margin-top: 40px;
 
 }
@@ -382,6 +381,63 @@ body {
     font-weight: 600;
     font-family: "IstokWebBoldItalic",sans-serif;
 }
+
+.photo-galery {
+	width: 80%;
+	height: 400px;
+	margin: 0 auto;
+	border:1px solid #e5e5e5;
+	-webkit-box-shadow:  0 6px 12px rgba(0,0,0,.175);
+    box-shadow:  0 6px 12px rgba(0,0,0,.175);
+}
+
+.photo-array {
+	width: 29%;
+	height: 400px;
+	border:1px solid green;
+	float: left;
+}
+
+.photo-single {
+	width: 69%;
+	height: 400px;
+	float: left;
+}
+
+.photo-single > div {
+	width: 90%;
+	height: 90%;
+	margin: 20px auto;
+
+}
+
+.fix-size {
+	width: 580px;
+	height: 360px;
+
+}
+
+.fix-size img {
+	width: 580px;
+	height: 360px;
+
+}
+
+.target-img {
+	height: 126px;
+	width: 126px;
+	border:1px solid pink;
+	clear: both;
+}
+
+.target-img img {
+	width: 100%;
+	height: 100%;
+	
+}
+
+
+
 
 /******* photo finish ********/
 
